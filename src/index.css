@@ -46,6 +46,7 @@ h4,
 h5,
 h6 {
   font-family: "Ubuntu", sans-serif;
+  color: #0a0a0a;
 }
 
 .container {
@@ -58,4 +59,10 @@ body {
   font-family: "Manrope", sans-serif;
   font-size: 16px;
   font-weight: 500;
+  color: #0a0a0a;
+}
+
+.active {
+  color: #f9681e;
+  border-bottom: 2px solid #0a0a0a;
 }
