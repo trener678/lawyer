@@ -51,11 +51,7 @@ export default function Header() {
                 info@youristo.online
               </a>
             </div>
-            <Btn
-              text="Попробовать бесплатно"
-              padding="15px 20px"
-              radius="10px"
-            />
+            <Btn text="Попробовать бесплатно" padding="15px 20px" link="#" />
           </div>
         </div>
       </div>

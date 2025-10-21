@@ -5,16 +5,12 @@ import styles from "./Btn.module.css";
 interface Btnprops {
   text: string;
   padding: string;
-  radius: string;
+  link: string;
 }
 
-export default function Btn({ text, padding, radius }: Btnprops) {
+export default function Btn({ text, padding, link }: Btnprops) {
   return (
-    <Link
-      to={"#"}
-      className={styles.link}
-      style={{ padding, borderRadius: radius }}
-    >
+    <Link to={link} className={styles.link} style={{ padding }}>
       {text}
     </Link>
   );

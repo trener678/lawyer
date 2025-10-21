@@ -1,5 +1,7 @@
 .link {
+  display: inline-block;
   background-color: #f9681e;
+  border-radius: 10px;
   font-weight: 700;
   color: white;
   transition: all 0.3s ease;

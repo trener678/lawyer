@@ -1,0 +1,13 @@
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10.5px;
+  padding: 25px 35px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  max-width: 337.5px;
+}
+
+.text {
+  font-weight: 700;
+}
