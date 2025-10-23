@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import TopItem from "../components/TopItem";
 
 import Btn from "../components/Btn";
+import AdvantagesItem from "../components/AdvantagesItem";
 
 import download from "../images/download.svg";
 import maps from "../images/maps.svg";
@@ -10,6 +11,10 @@ import top_1 from "../images/main-top_1.svg";
 import top_2 from "../images/main-top_2.svg";
 import top_3 from "../images/main-top_3.svg";
 import top_4 from "../images/main-top_4.svg";
+import advantages_1 from "../images/advantages_1.svg";
+import advantages_2 from "../images/advantages_2.svg";
+import advantages_3 from "../images/advantages_3.svg";
+import advantages_4 from "../images/advantages_4.svg";
 
 export default function Rate() {
   return (
@@ -52,6 +57,38 @@ export default function Rate() {
             <TopItem img={top_2} text="Данные отдела судебных приставов" />
             <TopItem img={top_3} text="Реквизиты для оплаты госпошлины" />
             <TopItem img={top_4} text="Суды, принимающие ЭДО" />
+          </div>
+        </div>
+      </div>
+      <div className={styles.advantages}>
+        <div className="container">
+          <h2 className={styles.advantages__title}>Наши преимущества</h2>
+          <div className={styles.advantages__list}>
+            <AdvantagesItem
+              img={advantages_1}
+              text="До 1 000 000 запросов в день"
+              link="#"
+              text__link="Одиночные и пакетные запросы"
+            />
+            <AdvantagesItem
+              img={advantages_2}
+              text="Всегда только актуальные данные"
+              link="#"
+              text__link="Откуда мы берем информацию"
+            />
+            <AdvantagesItem
+              img={advantages_3}
+              text="Высокая точность
+              определения — 99,6%"
+              link="#"
+              text__link="Как мы гарантируем точность"
+            />
+            <AdvantagesItem
+              img={advantages_4}
+              text="Функциональный личный кабинет"
+              link="#"
+              text__link="Попробуйте бесплатно"
+            />
           </div>
         </div>
       </div>

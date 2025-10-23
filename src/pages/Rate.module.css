@@ -89,3 +89,18 @@
   gap: 30px;
   margin-top: 40px;
 }
+
+.advantages {
+  padding: 120px 0;
+}
+
+.advantages__title {
+  margin-bottom: 40px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.advantages__list {
+  display: flex;
+  gap: 30px;
+}
