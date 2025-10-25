@@ -1,0 +1,13 @@
+.decision {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 15px 25px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.text {
+  font-weight: 600;
+  line-height: 100%;
+}

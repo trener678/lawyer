@@ -15,6 +15,7 @@ import advantages_1 from "../images/advantages_1.svg";
 import advantages_2 from "../images/advantages_2.svg";
 import advantages_3 from "../images/advantages_3.svg";
 import advantages_4 from "../images/advantages_4.svg";
+import Decision from "../components/Decision";
 
 export default function Rate() {
   return (
@@ -89,6 +90,26 @@ export default function Rate() {
               link="#"
               text__link="Попробуйте бесплатно"
             />
+          </div>
+        </div>
+      </div>
+      <div className="decisions">
+        <div className="container">
+          <div className="decisions__inner">
+            <div className="decisions__info">
+              <h2 className="decisions__title">Идеальное решение для:</h2>
+              <div className="decisions__list">
+                <Decision text="Банков и кредитных организаций" />
+                <Decision text="Микрофинансовых организаций" />
+                <Decision text="Коллекторских агенств" />
+                <Decision text="ЖКХ" />
+                <Decision text="Лизинговых компаний" />
+                <Decision text="Страховых компаний" />
+                <Decision text="Юридических фирм" />
+                <Decision text="Маркетинговых агентств" />
+              </div>
+            </div>
+            <img src="" alt="" className="decisions__img" />
           </div>
         </div>
       </div>
