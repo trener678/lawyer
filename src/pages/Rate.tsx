@@ -4,6 +4,7 @@ import TopItem from "../components/TopItem";
 
 import Btn from "../components/Btn";
 import AdvantagesItem from "../components/AdvantagesItem";
+import Decision from "../components/Decision";
 
 import download from "../images/download.svg";
 import maps from "../images/maps.svg";
@@ -15,7 +16,7 @@ import advantages_1 from "../images/advantages_1.svg";
 import advantages_2 from "../images/advantages_2.svg";
 import advantages_3 from "../images/advantages_3.svg";
 import advantages_4 from "../images/advantages_4.svg";
-import Decision from "../components/Decision";
+import comp from "../images/comp.png";
 
 export default function Rate() {
   return (
@@ -93,12 +94,14 @@ export default function Rate() {
           </div>
         </div>
       </div>
-      <div className="decisions">
+      <div className={styles.decisions}>
         <div className="container">
-          <div className="decisions__inner">
-            <div className="decisions__info">
-              <h2 className="decisions__title">Идеальное решение для:</h2>
-              <div className="decisions__list">
+          <div className={styles.decisions__inner}>
+            <div className={styles.decisions__info}>
+              <h2 className={styles.decisions__title}>
+                Идеальное решение для:
+              </h2>
+              <div className={styles.decisions__list}>
                 <Decision text="Банков и кредитных организаций" />
                 <Decision text="Микрофинансовых организаций" />
                 <Decision text="Коллекторских агенств" />
@@ -109,7 +112,7 @@ export default function Rate() {
                 <Decision text="Маркетинговых агентств" />
               </div>
             </div>
-            <img src="" alt="" className="decisions__img" />
+            <img src={comp} alt="" className={styles.decisions__img} />
           </div>
         </div>
       </div>

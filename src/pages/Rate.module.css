@@ -104,3 +104,35 @@
   display: flex;
   gap: 30px;
 }
+
+.decisions {
+  padding: 120px 0;
+  background-color: #f5f5f5;
+}
+
+.decisions__inner {
+  display: flex;
+  position: relative;
+}
+
+.decisions__info {
+  width: 55%;
+}
+
+.decisions__title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+.decisions__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.decisions__img {
+  position: absolute;
+  top: -285px;
+  left: 340px;
+}
