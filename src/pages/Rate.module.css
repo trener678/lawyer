@@ -136,3 +136,29 @@
   top: -285px;
   left: 340px;
 }
+
+.interaction {
+  padding: 120px 0;
+}
+
+.interaction__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.interaction__title {
+  font-size: 40px;
+  font-weight: 700;
+  max-width: 400px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.interaction__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}

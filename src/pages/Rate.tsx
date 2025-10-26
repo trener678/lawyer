@@ -5,6 +5,7 @@ import TopItem from "../components/TopItem";
 import Btn from "../components/Btn";
 import AdvantagesItem from "../components/AdvantagesItem";
 import Decision from "../components/Decision";
+import Interaction from "../components/Interaction";
 
 import download from "../images/download.svg";
 import maps from "../images/maps.svg";
@@ -17,6 +18,10 @@ import advantages_2 from "../images/advantages_2.svg";
 import advantages_3 from "../images/advantages_3.svg";
 import advantages_4 from "../images/advantages_4.svg";
 import comp from "../images/comp.png";
+import interaction_1 from "../images/Interaction-1.svg";
+import interaction_2 from "../images/Interaction-2.svg";
+import interaction_3 from "../images/Interaction-3.svg";
+import interaction_4 from "../images/Interaction-4.svg";
 
 export default function Rate() {
   return (
@@ -113,6 +118,33 @@ export default function Rate() {
               </div>
             </div>
             <img src={comp} alt="" className={styles.decisions__img} />
+          </div>
+        </div>
+      </div>
+      <div className={styles.interaction}>
+        <div className="container">
+          <div className={styles.interaction__inner}>
+            <h2 className={styles.interaction__title}>
+              Удобный формат взаимодействия
+            </h2>
+            <div className={styles.interaction__list}>
+              <Interaction
+                img={interaction_1}
+                text="Одиночные запросы через личный кабинет"
+              />
+              <Interaction
+                img={interaction_2}
+                text="Пакетные запросы с помощью excel таблиц"
+              />
+              <Interaction
+                img={interaction_3}
+                text="Взаимодействие через менеджера"
+              />
+              <Interaction
+                img={interaction_4}
+                text="Автоматизированная работа через API"
+              />
+            </div>
           </div>
         </div>
       </div>
